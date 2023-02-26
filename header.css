@@ -1,0 +1,23 @@
+/* HEADER */
+
+.header {
+   display: flex;
+   padding: 1rem 3rem;
+   justify-content: space-between;
+   align-items: center;
+}
+
+/* HEADER navegação */
+
+.navegacao {
+   width: 50%;
+}
+
+.navegacao_lista {
+   display: flex;
+   justify-content: space-between;
+}
+
+.navegacao_item {
+   text-decoration: none;
+}
