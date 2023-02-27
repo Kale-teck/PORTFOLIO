@@ -45,14 +45,18 @@
    width: auto;
    justify-content: space-between;
    padding-right: 4rem;
+   margin-top: 1.5rem;
 }
 
 .apresentacao_texto-lista-links {
    font-family: 'Raleway';
    font-weight: 500;
-   font-size: 16px;
+   font-size: 18px;
    line-height: 19px;
    margin-top: 1.5rem;
    /* Preto/100% */
    color: #464646;
+   text-decoration: none;
 }
+
+
