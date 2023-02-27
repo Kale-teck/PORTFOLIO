@@ -2,15 +2,16 @@
 
 .header {
    display: flex;
-   padding: 1rem 3rem;
+   padding: 1rem 2rem;
    justify-content: space-between;
    align-items: center;
+   max-width: 1024px;
 }
 
 /* HEADER navegação */
 
 .navegacao {
-   width: 50%;
+   width: 70%;
 }
 
 .navegacao_lista {
@@ -26,4 +27,8 @@
    font-weight: 500;
    font-size: 16px;
    line-height: 19px;
+}
+
+.email {
+   font-weight: 700;
 }
