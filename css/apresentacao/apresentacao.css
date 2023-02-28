@@ -1,14 +1,13 @@
 .apresentacao {
    display: flex;
    flex-direction: row;
-   max-width: 1024px;
-   padding: 2rem 2rem;
+   padding: 1.5rem 1.5rem;
+   background-color: #151515;
 }
 
 .apresentacao_imagem {
    width: 250px;
    height: 250px;
-   border-radius: 100%;
 }
 
 .apresentacao_texto {
@@ -21,7 +20,7 @@
    font-weight: 700;
    font-size: 50px;
    line-height: 55px;
-   color: #464646;
+   color: #F1BD35;
    
 }
 
@@ -37,15 +36,16 @@
 
    /* Preto/100% */
 
-   color: #464646
+   color: #F1BD35
 }
 
 .apresentacao_texto-lista {
    display: flex;
    width: auto;
-   justify-content: space-between;
+   flex-wrap: wrap;
+   justify-content: space-around;
    padding-right: 4rem;
-   margin-top: 1.5rem;
+   margin-top: 1rem;
 }
 
 .apresentacao_texto-lista-links {
@@ -55,7 +55,7 @@
    line-height: 19px;
    margin-top: 1.5rem;
    /* Preto/100% */
-   color: #464646;
+   color: #F1BD35;
    text-decoration: none;
 }
 

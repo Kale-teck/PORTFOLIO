@@ -1,5 +1,29 @@
 .sobreMim {
    /* Azul/10% */
 
-   background: #EAF2FD;
+   background: #D3D3D3;
+   padding: 1rem 3rem;
+}
+
+.sobreMim_titulo {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 38px;
+   color: #232323;
+}
+
+.sobreMim_paragrafo {
+
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 19px;
+   margin-top: 1rem;
+   line-height: normal;
+   /* Preto/100% */
+
+   color: #000000;
 }

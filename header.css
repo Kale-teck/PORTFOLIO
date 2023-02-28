@@ -1,3 +1,7 @@
+html {
+   min-width: 100%;
+}
+
 /* HEADER */
 
 .header {
@@ -5,8 +9,17 @@
    padding: 1rem 2rem;
    justify-content: space-between;
    align-items: center;
-   max-width: 1024px;
    background-color: #F1BD35;
+   min-width: auto;
+}
+
+.header:first-child {
+   display: flex;
+   flex-shrink: 0.5;
+}
+
+.logo {
+   width: 125px;
 }
 
 /* HEADER navegação */
@@ -18,6 +31,7 @@
 .navegacao_lista {
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
 }
 
 .navegacao_item {
