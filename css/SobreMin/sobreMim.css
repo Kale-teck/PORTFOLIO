@@ -1,7 +1,7 @@
 .sobreMim {
    /* Azul/10% */
 
-   background: #D3D3D3;
+   background: #F1BD35;
    padding: 1rem 3rem;
 }
 
@@ -18,12 +18,11 @@
 
    font-family: 'Raleway';
    font-style: normal;
-   font-weight: 400;
-   font-size: 18px;
-   line-height: 19px;
+   font-weight: 500;
+   font-size: 19px;
+   line-height: 20px;
    margin-top: 1rem;
    line-height: normal;
    /* Preto/100% */
-
    color: #000000;
 }

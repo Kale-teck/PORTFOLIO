@@ -1,0 +1,31 @@
+.skills {
+   display: flex;
+   flex-direction: column;
+   background-color: #151515;
+}
+
+.skills_titulo {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 38px;
+   /* identical to box height */
+
+   text-align: center;
+
+   /* Preto/100% */
+
+   color: #F1BD35;
+}
+
+.skills_lista {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.skills_logo {
+   width: 150px;
+   height: auto;
+}
