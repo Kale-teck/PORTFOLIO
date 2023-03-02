@@ -2,6 +2,7 @@
    display: flex;
    flex-direction: column;
    background-color: #151515;
+   padding-top: 1.5rem;
 }
 
 .skills_titulo {
@@ -26,6 +27,12 @@
 }
 
 .skills_logo {
-   width: 150px;
+   width: 100px;
    height: auto;
+   flex-shrink: 3;
+   
+}
+
+.python {
+   width: 150px;
 }

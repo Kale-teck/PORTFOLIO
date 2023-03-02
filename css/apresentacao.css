@@ -45,7 +45,7 @@
    flex-wrap: wrap;
    justify-content: space-around;
    padding-right: 4rem;
-   margin-top: 1rem;
+   margin-top: 1.5rem;
 }
 
 .apresentacao_texto-lista-links {
@@ -53,7 +53,7 @@
    font-weight: 500;
    font-size: 18px;
    line-height: 19px;
-   margin-top: 1.5rem;
+   margin-top: 1.75rem;
    /* Preto/100% */
    color: #F1BD35;
    text-decoration: none;
