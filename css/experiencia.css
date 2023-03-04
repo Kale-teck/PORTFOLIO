@@ -25,37 +25,48 @@
 .experiencia_item {
    display: flex;
    max-width: 100%;
+   justify-content: space-around;
 }
 
 .experiencia_item-imagem {
-   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
    border-radius: 10px;
+   max-width: 70%;
+   height: 55%;
+   flex-grow: 0.25;
+   flex-shrink: 0.5;
 }
 
 .experiencia_item-texto {
-   display: flex;
-   flex-direction: column;
    color: #F1BD35;
    font-family: 'Raleway';
    font-style: normal;
-   height: 100%;
-   margin-left: 5%;
+   width: 25%;
+   margin-left: 4%;
+   align-items: center;
+   padding-top: 13%;
 }
 
 .experiencia_item-texto-titulo {
    font-weight: 700;
    font-size: 22px;
-   line-height: 26px;
-   margin-top: 150px;
+   line-height: 24px;
 }
 
 .experiencia_item-texto-descricao {
    font-weight: 500;
    font-size: 16px;
    line-height: 19px;
+   margin-top: 10px;
+   margin-bottom: 15px;
 }
 
 .experiencia_item-texto-link {
    text-decoration: none;
-   color: #F1BD35;
+   color: #000000;
+   background-color: #F1BD35;
+   padding: 5px;
+   border-radius: 8px;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 25px;
 }
