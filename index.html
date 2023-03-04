@@ -13,6 +13,8 @@
    <link rel="stylesheet" href="/css/skills.css">
    <link rel="stylesheet" href="/css/formacao.css">
    <link rel="stylesheet" href="/css/experiencia.css">
+   <link rel="stylesheet" href="/css/contato.css">
+   <link rel="stylesheet" href="/css/rodape.css">
 </head>
 <body>
    <header class="header">
@@ -28,7 +30,7 @@
       </nav>
    </header>
 
-   <body>
+   <main>
       <section class="apresentacao">
          <div class="apresentacao_texto">
             <h1 class="apresentacao_texto-titulo">
@@ -105,11 +107,50 @@
                <div class="experiencia_item-texto">
                   <h4 class="experiencia_item-texto-titulo">Decodificador de Texto</h4>
                   <p class="experiencia_item-texto-descricao">Challenge Alura One</p>
-                  <a href="https://github.com/Kale-teck/DECODIFICADOR" target="_blank" class="experiencia_item-texto-link">Repositório</a>
+                  <a href="https://github.com/Kale-teck/DECODIFICADOR" target="_blank" class="experiencia_item-texto-link">Repositório &#8599;</a>
                </div>
             </li>
          </ul>
       </section>
-   </body>   
+
+      <section class="contato">
+         <h4 class="contato_titulo">Contato</h4>
+         <div class="contato_conteudo">
+            <img src="/img/smartphone.png" alt="desenho de um smartphone com bordas pretas" class="contato_imagem">
+            <form action="/data/data.txt" class="contato_formulario">
+               <div class="contato_formulario-div">
+                  <label for="nome">Nome</label>
+                  <input type="text" id="nome">
+               </div>
+               <div class="contato_formulario-div">
+                  <label for="email">Email</label>
+                  <input type="email" id="email">
+               </div>
+               <div class="contato_formulario-div">
+                  <label for="text">Assunto</label>
+                  <input type="text" id="text">
+               </div>
+               <div class="contato_formulario-div">
+                  <label for="msg">Mensagem</label>
+                  <textarea name="msg" id="msg" cols="20" rows="10">Mensagem</textarea>
+               </div>
+               <div class="contato_formulario-div-botao">
+                  <button class="botao">
+                     Enviar Mensagem
+                  </button>
+               </div>
+            </form>
+         </div>
+      </section>
+   </main>
+
+   <footer class="rodape">
+      <p class="rodape_paragrafo">
+         Desenvolvido por Kalebe Martins
+      </p>
+      <p class="rodape_ano">
+         2023
+      </p>
+   </footer>
 </body>
 </html>

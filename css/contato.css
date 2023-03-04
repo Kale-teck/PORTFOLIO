@@ -1,0 +1,17 @@
+.contato {
+   background-color: #F1BD35;
+   padding: 1.5rem 0;
+}
+
+.contato_titulo {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 38px;
+   text-align: center;
+}
+
+.contato_conteudo {
+   display: flex;
+}
