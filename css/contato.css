@@ -1,6 +1,6 @@
 .contato {
    background-color: #F1BD35;
-   padding: 1.5rem 0;
+   padding: 2rem;
 }
 
 .contato_titulo {
@@ -14,4 +14,71 @@
 
 .contato_conteudo {
    display: flex;
+   justify-content: space-around;
+   margin-top: 2rem;
+}
+
+.contato_imagem {
+   width: 350px;
+   height: 350px;
+}
+
+.contato_formulario {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.contato_formulario-div {
+   display: flex;
+   flex-direction: column;
+   height: 40px;
+   width: 600px;
+   padding: 5px 10px;
+   border-radius: 10px;
+   background: #FFFFFF;
+}
+
+.contato_formulario-label {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 16px;
+   margin-left: 0.75rem;
+}
+
+.contato_formulario-input {
+   margin-top: 5px;
+   outline: 0;
+   border: none;
+   font-size: 16px;
+}
+
+.area-mensagem {
+   height: auto;
+}
+
+.contato_formulario-mensagem {
+   display: flex;
+   flex-direction: column;
+}
+
+.contato_formulario-textarea {
+   resize: none;
+   height: 50px;
+   border: none;
+   outline: 0;
+   font-size: 16px;
+}
+
+.botao {
+   text-decoration: none;
+   color: #F1BD35;
+   background-color: #000000;
+   padding: 5px;
+   border-radius: 8px;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 25px;
 }
