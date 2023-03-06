@@ -6,44 +6,37 @@ html {
 
 .header {
    display: flex;
-   padding: 1rem 2rem;
+   padding: 1rem;
+   padding-right: 2rem;
    justify-content: space-between;
    align-items: center;
    background-color: #F1BD35;
    min-width: auto;
 }
 
-.header:first-child {
-   display: flex;
-   flex-shrink: 0.5;
-}
-
 .logo {
+   margin-left: 1rem;
    width: 125px;
+   flex-shrink: 0;
 }
 
 /* HEADER navegação */
 
-.navegacao {
-   width: 60%;
-}
-
 .navegacao_lista {
    display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
+   justify-content: space-around;
+   max-width: 70%;
 }
 
-.navegacao_item {
-   text-decoration: none;
-   color: black;
+.navegacao_lista-links {
+   color: #F1BD35;
    font-family: 'Raleway';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 19px;
-}
-
-.email {
+   text-decoration: none;
+   background-color: #000000;
+   padding: 5px 15px;
+   border-radius: 40px;
+   font-size: 18px;
    font-weight: 700;
+   margin-left: 8px;
+   flex-shrink: 0;
 }
