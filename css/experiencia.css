@@ -8,14 +8,11 @@
 
 .experiencia_titulo {
    color: #F1BD35;
-   font-family: 'Raleway';
-   font-style: normal;
    font-weight: 700;
    font-size: 32px;
    line-height: 38px;
    margin-bottom: 1.5rem;
    text-align: center;
-
 }
 
 .experiencia_lista {
@@ -39,8 +36,6 @@
 
 .experiencia_item-texto {
    color: #F1BD35;
-   font-family: 'Raleway';
-   font-style: normal;
    width: 25%;
    margin-left: 4%;
    align-items: center;

@@ -6,17 +6,10 @@
 }
 
 .skills_titulo {
-   font-family: 'Raleway';
-   font-style: normal;
    font-weight: 700;
    font-size: 32px;
    line-height: 38px;
-   /* identical to box height */
-
    text-align: center;
-
-   /* Preto/100% */
-
    color: #F1BD35;
 }
 

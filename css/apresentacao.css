@@ -16,7 +16,6 @@
 }
 
 .apresentacao_texto-titulo {
-   font-family: Raleway;
    font-weight: 700;
    font-size: 50px;
    line-height: 55px;
@@ -25,8 +24,6 @@
 }
 
 .apresentacao_texto-paragrafo {
-   font-family: 'Raleway';
-   font-style: normal;
    font-weight: 400;
    font-size: 22px;
    line-height: 26px;

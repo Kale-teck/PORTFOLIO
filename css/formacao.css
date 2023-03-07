@@ -5,8 +5,6 @@
 }
 
 .formacao_titulo {
-   font-family: 'Raleway';
-   font-style: normal;
    font-weight: 700;
    font-size: 32px;
    line-height: 38px;
@@ -39,8 +37,6 @@
 }
 
 .formacao_itens-titulo {
-   font-family: 'Raleway';
-   font-style: normal;
    font-weight: 700;
    font-size: 20px;
    line-height: 26px;
@@ -48,16 +44,12 @@
 }
 
 .formacao_itens-tipo {
-   font-family: 'Raleway';
-   font-style: normal;
    font-weight: 600;
    font-size: 16px;
    line-height: 19px;
 }
 
 .formacao_itens-descricao {
-   font-family: 'Raleway';
-   font-style: normal;
    font-weight: 500;
    font-size: 16px;
    line-height: 19px;
