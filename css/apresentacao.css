@@ -1,7 +1,7 @@
 .apresentacao {
    display: flex;
    flex-direction: row;
-   padding: 1.5rem 1.5rem;
+   padding: 1.5rem;
    background-color: #151515;
 }
 
@@ -32,3 +32,24 @@
    color: #F1BD35
 }
 
+@media screen and (max-width: 490px) {
+   .apresentacao {
+      flex-direction: column;
+      align-items: center;
+      padding: 1.5rem 0rem;
+   }
+
+   .apresentacao_imagem {
+      order: 0;
+   }
+   .apresentacao_texto {
+      order: 1;
+      padding-right: 0;
+   }
+   .apresentacao_texto-titulo {
+      font-size: 40px;
+      line-height: 40px;
+      color: #F1BD35;
+      
+   }
+}

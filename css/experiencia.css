@@ -66,3 +66,30 @@
    font-weight: 700;
    line-height: 25px;
 }
+
+@media screen and (max-width: 490px) {
+   .experiencia_item {
+      flex-direction: column;
+      height:min-content
+   }
+
+   .experiencia_item-imagem {
+      max-width: 100%;
+   }
+
+   .experiencia_item-texto {
+      width: 100%;
+      text-align: center;
+      margin-left: 0;
+   }
+
+   .experiencia_item-texto-descricao {
+      margin-bottom: 10%;
+   }
+
+   .experiencia_item-texto-link {
+      font-size: 25px;
+      padding: 15px;
+      margin-top: 100px;
+   }
+}

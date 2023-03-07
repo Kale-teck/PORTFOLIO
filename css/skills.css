@@ -31,3 +31,25 @@
 .python {
    width: 115px;
 }
+
+@media screen and (max-width: 490px) {
+   .skills {
+      align-items: center;
+   }
+   
+   .skills_lista {
+      max-width: 90%;
+      flex-wrap: wrap;
+      align-items: center;
+   }
+
+   .skills_logo {
+      width: 90px;
+      height: auto;
+      margin: 20px;
+   }
+   
+   .python {
+      width: 100px;
+   }
+}
