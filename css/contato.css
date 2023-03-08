@@ -59,6 +59,10 @@
    margin-left: 20px;
 }
 
+.contato_formulario-input:invalid + span {
+   display: inline;
+}
+
 .area-mensagem {
    height: auto;
 }
