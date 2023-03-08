@@ -112,22 +112,22 @@
             <form action="/data/data.txt" class="contato_formulario">
                <div class="contato_formulario-div">
                   <label for="nome" class="contato_formulario-label">Nome</label>
-                  <input type="text" id="nome" class="contato_formulario-input" placeholder="José Maria" required maxlength="50" title="O campo deve conter no máximo 50 caracteres e não pode ficar vazio">
+                  <input type="text" id="nome" class="contato_formulario-input" placeholder="José Maria" maxlength="50" title="O campo deve conter no máximo 50 caracteres e não pode ficar vazio" required>
                </div>
                <div class="contato_formulario-div">
                   <label for="email" class="contato_formulario-label">Email</label>
-                  <input type="email" id="email" class="contato_formulario-input" placeholder="josemaria@mail.com" required>
+                  <input type="email" id="email" class="contato_formulario-input" placeholder="josemaria@mail.com" required inputmode="email">
                </div>
                <div class="contato_formulario-div">
                   <label for="text" class="contato_formulario-label">Assunto</label>
-                  <input type="text" id="text" class="contato_formulario-input" placeholder="Assunto" required>
+                  <input type="text" id="text" class="contato_formulario-input" placeholder="Assunto" required maxlength="50">
                </div>
                <div class="contato_formulario-div area-mensagem">
                   <label for="msg" class="contato_formulario-label" >Mensagem</label>
-                  <textarea name="msg" id="msg" cols="20" rows="7" class="contato_formulario-textarea" placeholder="Mensagem de no máximo 150 caracteres" required maxlength="150"></textarea>
+                  <textarea name="msg" id="msg" cols="20" rows="7" class="contato_formulario-textarea" placeholder="Mensagem de no máximo 300 caracteres" required maxlength="300" title="Limite de 300 caracteres atingido"></textarea>
                </div>
                <div class="contato_formulario-div-botao">
-                  <button class="botao">
+                  <button class="botao" disabled>
                      Enviar Mensagem
                   </button>
                </div>
