@@ -33,6 +33,12 @@
    font-weight: 700;
    margin-left: 8px;
    flex-shrink: 1;
+   transition: 300ms;
+}
+
+.navegacao_lista-links:hover {
+   background-color: #232323;
+   font-size: 20px;
 }
 
 @media screen and (max-width: 490px) {

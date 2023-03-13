@@ -34,6 +34,10 @@
    flex-shrink: 0.5;
 }
 
+.one {
+   height: 50px;
+}
+
 .experiencia_item-texto {
    color: #F1BD35;
    width: 25%;
@@ -65,6 +69,12 @@
    font-size: 16px;
    font-weight: 700;
    line-height: 25px;
+   transition: 300ms;
+}
+
+.experiencia_item-texto-link:hover {
+   background-color: #e9c059;
+   font-size: 18px;
 }
 
 @media screen and (max-width: 490px) {
