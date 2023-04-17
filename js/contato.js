@@ -13,8 +13,5 @@ formularios.forEach((evento) => {
 function validaFormulario(evento) {
 
    validaNome(evento)
-   validaEmail(evento)
-   validaAssunto(evento)
-   validaMensagem(evento)
 }
    
