@@ -1,3 +1,5 @@
 export default function validaEmail(evento) {
-   console.log("email")
+   const email = evento.value
+
+   console.log(email)
 }

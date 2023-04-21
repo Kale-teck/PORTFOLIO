@@ -59,6 +59,14 @@
    margin-left: 20px;
 }
 
+.mensagem-erro {
+   background-color: #FFFFFF;
+   border-radius: 0 0 12px 12px;
+   padding: 2px 10px;
+   color: red;
+   width: max-content;
+}
+
 .area-mensagem {
    height: auto;
 }

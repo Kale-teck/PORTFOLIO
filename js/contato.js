@@ -7,11 +7,26 @@ const formularios = document.querySelectorAll("[required]")
 
 formularios.forEach((evento) => {
 
-   evento.addEventListener('blur', () => validaFormulario(evento))
+   evento.addEventListener('blur', () => verificaFormulario(evento))
+
+   //impedindo popup html quando valid == false
+   evento.addEventListener('invalid', evento => evento.preventDefault())
 })
 
-function validaFormulario(evento) {
+function verificaFormulario(evento) {
 
-   validaNome(evento)
+   if (evento.name == "nome" && evento.value != "") {
+      validaNome(evento)
+   }
+
+   if (evento.name == "email") {
+      validaEmail(evento)
+   }
+
+   if (evento.name == "assunto") {
+      validaAssunto(evento)
+   }
+
+   console.log(evento.validity)
 }
    

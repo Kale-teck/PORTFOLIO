@@ -113,19 +113,23 @@
             <form  class="contato_formulario">
                <div id="formulario" class="contato_formulario-div">
                   <label for="nome" class="contato_formulario-label">Nome</label>
-                  <input type="text" id="nome" class="contato_formulario-input" placeholder="José Maria" maxlength="50" title="O campo deve conter no máximo 50 caracteres e não pode ficar vazio" required>
+                  <input type="text" id="nome" name="nome" class="contato_formulario-input" placeholder="José Maria" maxlength="50" title="O campo deve conter no máximo 50 caracteres e não pode ficar vazio" required>
+                  <span class="mensagem-erro">O campo de nome não pode estar vazio.</span>
                </div>
                <div class="contato_formulario-div">
                   <label for="email" class="contato_formulario-label">Email</label>
-                  <input type="email" id="email" class="contato_formulario-input" placeholder="josemaria@mail.com" required inputmode="email">
+                  <input type="email" name="email" id="email" class="contato_formulario-input" placeholder="josemaria@mail.com" required inputmode="email">
+                  <span class="mensagem-erro">O campo de nome não pode</span>
                </div>
                <div class="contato_formulario-div">
                   <label for="text" class="contato_formulario-label">Assunto</label>
-                  <input type="text" id="text" class="contato_formulario-input" placeholder="Assunto" required maxlength="50">
+                  <input type="text" id="text" name="assunto" class="contato_formulario-input" placeholder="Assunto" required maxlength="50">
+                  <span class="mensagem-erro">O campo de nome não pode estar vazio.</span>
                </div>
                <div class="contato_formulario-div area-mensagem">
                   <label for="msg" class="contato_formulario-label" >Mensagem</label>
                   <textarea name="msg" id="msg" cols="20" rows="7" class="contato_formulario-textarea" placeholder="Mensagem de no máximo 300 caracteres" required maxlength="300" title="Limite de 300 caracteres atingido"></textarea>
+                  <span class="mensagem-erro"></span>
                </div>
                <div class="contato_formulario-div-botao">
                   <button class="botao">

@@ -1,3 +1,5 @@
 export default function validaAssunto(evento) {
-   console.log("assunto")
+   const assunto = evento.value
+
+   console.log(assunto)
 }
