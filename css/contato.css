@@ -142,11 +142,12 @@
 
 @media screen and (max-width: 490px) {
    .contato  {
-      height: 450px;
+      height: 500px;
    }
 
    .contato_conteudo {
-      padding-bottom: 1rem;
+      justify-content: space-between;
+      height: 450px;
    }
 
    .contato_imagem {
@@ -159,7 +160,7 @@
    }
 
    .contato_formulario-div {
-      margin-top: 10px;
+      margin-top: 25px;
    }
 
    .contato_formulario-div-botao {
@@ -168,16 +169,16 @@
 
    .mensagem-erro {
       border-radius: 0 10px 12px 12px;
-      padding: 2px 8px;
+      padding: 2px 4px;
       width: max-content;
-      max-width: 90%;
+      max-width: 95%;
       font-size: 14px;
    }
 
    .botao {
       font-size: 25px;
       text-align: center;
-      padding: 20px;
+      padding: 18px;
       margin-top: 10px;
       margin-bottom: 30px;
    }
