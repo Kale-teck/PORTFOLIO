@@ -105,37 +105,6 @@
    font-size: 20px;
 }
 
-@media screen and (max-width: 490px) {
-   .contato  {
-      padding: 1rem;
-      height: 450px;
-   }
-
-   .contato_imagem {
-      max-width: 0;
-   }
-
-   .contato_formulario {
-      width: 100%;
-      padding: 0 1rem;
-   }
-
-   .contato_formulario-div {
-      margin-top: 10px;
-   }
-
-   .contato_formulario-div-botao {
-      text-align: center;
-   }
-
-   .botao {
-      font-size: 25px;
-      text-align: center;
-      padding: 20px;
-      margin-top: 22px;
-   }
-}
-
 @media screen and (max-width: 920px) {
    .contato {
       height: 450px;
@@ -170,3 +139,47 @@
       padding: 12px;
    }
 }
+
+@media screen and (max-width: 490px) {
+   .contato  {
+      height: 450px;
+   }
+
+   .contato_conteudo {
+      padding-bottom: 1rem;
+   }
+
+   .contato_imagem {
+      max-width: 0;
+   }
+
+   .contato_formulario {
+      width: 100%;
+      padding: 0rem;
+   }
+
+   .contato_formulario-div {
+      margin-top: 10px;
+   }
+
+   .contato_formulario-div-botao {
+      text-align: center;
+   }
+
+   .mensagem-erro {
+      border-radius: 0 10px 12px 12px;
+      padding: 2px 8px;
+      width: max-content;
+      max-width: 90%;
+      font-size: 14px;
+   }
+
+   .botao {
+      font-size: 25px;
+      text-align: center;
+      padding: 20px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+   }
+}
+
