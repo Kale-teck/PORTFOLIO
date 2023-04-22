@@ -65,6 +65,7 @@
    padding: 2px 10px;
    color: red;
    width: max-content;
+   max-width: 100%;
 }
 
 .area-mensagem {

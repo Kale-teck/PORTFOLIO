@@ -1,3 +1,5 @@
 export default function validaMensagem(evento) {
-   console.log("mensagem")
+   const msg = evento.value
+
+   console.log(msg)
 }

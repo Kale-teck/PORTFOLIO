@@ -1,3 +1,13 @@
+export {mensagens, tiposDeErro}
+
+const tiposDeErro = [
+    'valueMissing', //campo vazio
+    'typeMismatch', //tipo não conbina
+    'patternMismatch', // patter/regex não bate
+    'tooShort', //tamanho limite não atingido
+    'customError' // erros personalizados JS
+]
+
 const mensagens = {
    nome: {
        valueMissing: "O campo de nome não pode estar vazio.",
@@ -9,14 +19,11 @@ const mensagens = {
        tooShort: "Por favor, preencha um e-mail válido."
    },
    assunto: {
-       valueMissing: "O campo de RG não pode estar vazio.",
-       patternMismatch: "Por favor, preencha um RG válido.",
-       tooShort: "O campo de RG não tem caractéres suficientes."
+       valueMissing: "O campo Assunto não pode estar vazio.",
+       tooLong: "O campo Assunto não pode ter mais que 50 caractéres"
    },
    mensagem: {
-       valueMissing: 'O campo de CPF não pode estar vazio.',
-       patternMismatch: "Por favor, preencha um CPF válido.",
-       customError: "O CPF digitado não existe.",
-       tooShort: "O campo de CPF não tem caractéres suficientes."
+       valueMissing: 'O campo Mensagem não pode estar vazio.',
+       tooLong: "Máximo 300 caracteres"
    }
 }
