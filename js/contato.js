@@ -20,12 +20,10 @@ function verificaFormulario(evento) {
 
    if (evento.name == "nome" && evento.value != "") {
       validaNome(evento)
-      console.log(mensagens)
    }
 
    if (evento.name == "email" && evento.value != "") {
       validaEmail(evento)
-      console.log(mensagem)
    }
 
    if (evento.name == "assunto" && evento.value != "") {
@@ -36,11 +34,27 @@ function verificaFormulario(evento) {
       validaMensagem(evento)
    }
 
+   //ATRIBUINDO MENSAGEM DE ERRO PARA LET MENSAGEM COMFORME CADA CAMPO E ESTADO RESPECTIVAMENTE
+
    tiposDeErro.forEach(erro => {
       if (evento.validity[erro]) {
          mensagem = mensagens[evento.name][erro]
          console.log(mensagem)
       }
    })
+
+   // ESCREVENDO AS MENSAGENS DE ERRO DO CONSOLE PARA O HTML
+
+   const mensagemErro = evento.parentNode.querySelector('.mensagem-erro')
+
+   const validadorDeInput = evento.checkValidity()
+
+   if(!validadorDeInput) {
+      mensagemErro.textContent = mensagem
+      //essa variável mensagem está sendo atribuída em tiposDeErro.forEach() logo acima
+   } else {
+      mensagemErro.textContent = ""
+   }
+
 }
    

@@ -5,6 +5,7 @@ const tiposDeErro = [
     'typeMismatch', //tipo não conbina
     'patternMismatch', // patter/regex não bate
     'tooShort', //tamanho limite não atingido
+    'tooLong', //tamanho máximo excedido
     'customError' // erros personalizados JS
 ]
 
