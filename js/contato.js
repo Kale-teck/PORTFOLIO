@@ -6,6 +6,24 @@ import { mensagens, tiposDeErro } from "./mensagens.js"
 
 const formularios = document.querySelectorAll("[required]")
 
+//ENVIANDO FORMULÁRIO 
+const formulario = document.querySelector("[data-formulario]")
+
+formulario.addEventListener("submit", (e) => {
+   e.preventDefault()
+
+   const listaDados = {
+      "nome": e.target.elements["nome"].value,
+      "email": e.target.elements["email"].value,
+      "assunto": e.target.elements["assunto"].value,
+      "mensagem": e.target.elements["mensagem"].value,
+   }
+
+   localStorage.setItem("contato", JSON.stringify(listaDados))
+
+   alert('Obrigado pelo contato !')
+})
+
 formularios.forEach((evento) => {
 
    evento.addEventListener('blur', () => verificaFormulario(evento))
@@ -39,7 +57,6 @@ function verificaFormulario(evento) {
    tiposDeErro.forEach(erro => {
       if (evento.validity[erro]) {
          mensagem = mensagens[evento.name][erro]
-         console.log(mensagem)
       }
    })
 
