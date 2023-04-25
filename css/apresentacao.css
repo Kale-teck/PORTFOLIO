@@ -32,7 +32,13 @@
    color: #F1BD35
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 590px) {
+   .apresentacao_texto {
+      padding-right: 0;
+   }
+}
+
+@media screen and (max-width: 480px) {
    .apresentacao {
       flex-direction: column;
       align-items: center;

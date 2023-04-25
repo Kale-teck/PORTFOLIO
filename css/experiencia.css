@@ -78,6 +78,12 @@
    font-size: 18px;
 }
 
+@media screen and (max-width: 690px) and (min-width: 490px) {
+   .experiencia_item-texto {
+      width: 25%;
+      padding-top: 5%;
+   }
+}
 @media screen and (min-width: 491px) {
    .experiencia_item {
       height: min-content;
@@ -86,6 +92,10 @@
 
    .experiencia_item:last-child {
       flex-direction: row-reverse;
+   }
+
+   .experiencia_item-imagem {
+      flex-shrink: 1;
    }
 }
 
