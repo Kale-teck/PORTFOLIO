@@ -1,6 +1,7 @@
 .contato {
    background-color: #F1BD35;
    padding: 2rem;
+   height: 500px;
 }
 
 .contato_titulo {
@@ -30,18 +31,20 @@
    justify-content: space-between;
    width: 60%;
    padding: 0 1rem;
+   height: auto;
 }
 
 .contato_formulario-div {
    display: flex;
    flex-direction: column;
-   height: 40px;
+   height: auto;
    width: auto;
    padding: 5px 10px;
    border-radius: 10px;
    background: #FFFFFF;
    flex-shrink: 0;
    flex-grow: 0;
+   margin-bottom: 2%;
 }
 
 .contato_formulario-label {
@@ -107,7 +110,7 @@
 
 @media screen and (max-width: 920px) {
    .contato {
-      height: 450px;
+      height: 550px;
       padding: 1.5rem;
       padding-bottom: 0;
    }
@@ -118,7 +121,7 @@
    
 
    .contato_formulario-div {
-      margin-top: 20px;
+      margin-top: 15px;
    }
    
    .contato_formulario {
@@ -132,7 +135,7 @@
 
    .contato_formulario-div-botao {
       text-align: center;
-      margin-top: 20px;
+      margin-top: 15px;
    }
 
    .botao {
@@ -162,7 +165,7 @@
    }
 
    .contato_formulario-div {
-      margin-top: 25px;
+      margin-top: 15px;
    }
 
    .contato_formulario-div-botao {
@@ -181,7 +184,7 @@
       font-size: 25px;
       text-align: center;
       padding: 18px;
-      margin-top: 10px;
+      margin-top: 5px;
       margin-bottom: 30px;
    }
 }
