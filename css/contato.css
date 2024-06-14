@@ -121,7 +121,7 @@
    
 
    .contato_formulario-div {
-      margin-top: 15px;
+      margin-top: 10px;
    }
    
    .contato_formulario {
@@ -135,7 +135,7 @@
 
    .contato_formulario-div-botao {
       text-align: center;
-      margin-top: 15px;
+      margin-top: 12px;
    }
 
    .botao {
@@ -146,7 +146,7 @@
 
 @media screen and (max-width: 490px) {
    .contato  {
-      height: 500px;
+      height: 550px;
       padding: 1rem;
    }
 
@@ -191,12 +191,12 @@
 
 @media screen and (max-width: 360px) {
    .contato  {
-      height: 525px;
+      height: 600px;
       padding: 1rem 0.5rem;
    }
 
    .contato_formulario-div {
-      margin-top: 25px;
+      margin-top: 15px;
       max-width: 90%;
    }
 
@@ -209,7 +209,7 @@
       font-size: 22px;
       text-align: center;
       padding: 15px;
-      margin-top: 10px;
-      margin-bottom: 20px;
+      margin-top: 5px;
+      margin-bottom: 10px;
    }
 }
